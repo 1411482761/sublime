@@ -1,0 +1,75 @@
+{
+  "result": {
+    "poll_url": "",
+    "text": "<div class='bremark2'><table class='brtable'><tr><td class='h'>订货件数:</td><td class='v'>257,326</td></tr><tr><td class='h'>@ordering-section-number@:</td><td class='v'>456</td></tr><tr><td class='h'>@order-the-amount@:</td><tdclass='v'>@money@40,867,665</td></tr><tr><td class='h'>@target-amount@:</td><td class='v'>@money@00</td></tr><tr><td class='h'>@target-achievement@:</td><td class='v'>100%</td></tr><tr><td class='h'>@order-status@:</td><td class='v'>@not-submit@</td></tr></table></div>",
+    "gatherqty": false,
+    "news": "",
+    "status": 1,
+    "theme": "02",
+    "locale": "en_US",
+    "show_print_button": true,
+    "parent_edit_self": false,
+    "shownews": true,
+    "is_mgr": "N",
+    "overall_comments": "",
+    "meta": {
+      "text": "Y",
+      "news": "Y",
+      "comment": "N"
+    },
+    "show_hporderinfo": "Y",
+    "cancopybuyer": false,
+    "should_warn": false,
+    "allow_buyer_print": false,
+    "show_multiple_button": false,
+    "print_templates": [
+      {
+        "iscombine": "Y",
+        "reports": [
+          {
+            "index": 0,
+            "name": "excel:template1.xls"
+          },
+          {
+            "index": 1,
+            "name": "excel:template2.xls"
+          }
+        ],
+        "index": 0,
+        "name": "合同打印",
+        "config": "orderfair_order_excel_def",
+        "type": "xls",
+        "checked": "N"
+      },
+      {
+        "iscombine": "Y",
+        "reports": [
+          {
+            "index": 0,
+            "name": "excel:template1.xls"
+          },
+          {
+            "index": 1,
+            "name": "excel:template2.xls"
+          },
+          {
+            "index": 2,
+            "name": "excel:template3.xls"
+          },
+          {
+            "index": 3,
+            "name": "excel:template4.xls"
+          }
+        ],
+        "index": 1,
+        "name": "合同&明细打印",
+        "config": "orderfair_order_excel_def",
+        "type": "xls",
+        "checked": "N"
+      }
+    ],
+    "show_submit_button": true
+  }
+}
+
+英文版
