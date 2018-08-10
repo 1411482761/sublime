@@ -1,0 +1,36 @@
+adsql
+
+
+orderfair_list_filter_form  过滤条件
+
+print_templates
+
+orderfair_pdt_html
+
+sqlite_pdt  单品订货数据
+
+orderfair_rankconf  龙虎榜配置弹窗
+
+
+[
+  {
+    "table": "i_product",
+    "columns": [
+      "value"
+    ]
+  }
+]
+
+
+涉及
+
+orderfair_list_filter_form
+
+rest-logoff
+cluster_servers
+ imgsvr_conf
+ orderfair_getbuyerlist
+
+
+ orderfair_qty_amt_order
+ orderfair_pdt_index

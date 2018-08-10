@@ -1,0 +1,58 @@
+登录时打印模块
+
+登录选择买手
+getBuyerList:{"result":{"buyers":[{"id":2,"stamp_date":null,"remark":"@orders@:257,326, @order-volume@:40,867,665","status":1,"name":"北京子公司直营规划量-(我)","img":"status_1.png","foid
+":8061},{"id":3,"stamp_date":null,"remark":"@orders@:257,326, @order-volume@:40,867,665","status":1,"name":"北京子公司直营规划量分单01","img":"status_1.png","foid":1641},{"id":4,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规划量分单02","img":"st
+atus_1.png","foid":8064},{"id":5,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规划量分单03","img":"status_1.png","foid":8063},{"id":6,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规划量分单04"
+,"img":"status_1.png","foid":8067},{"id":7,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规划量分单05","img":"status_1.png","foid":8066},{"id":8,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规
+划量分单06","img":"status_1.png","foid":8062},{"id":9,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京子公司直营规划量分单07","img":"status_1.png","foid":8068},{"id":10,"stamp_date":null,"remark":"@plan-orders@:0, @plan-amount-set@:0","status":1,"name":"北京
+子公司直营规划量分单08","img":"status_1.png","foid":8065}],"type":"mgr"}}
+
+
+
+
+首页标题
+
+2018-08-03 10:38:18,655 DEBUG 192.168.130.152 [21BJA1] 9BD108DD938FF22F43E840143D3B5A95 [DatabaseManager] (0.0 s, cnt 1) select value from ad_sql where name=? [orderfair_pdfs]
+2018-08-03 10:38:18,656 DEBUG 192.168.130.152 [21BJA1] 9BD108DD938FF22F43E840143D3B5A95 [FairCmd] Result for cmd=setBuyer:{"result":{"allow_exchange":"false","truename":"@welcome@, 北京子公司直营规划量(@examine@北京子公司直营规划量)","pdf":[{"file":"main.pdf","name":"Main"}],"ispaid":"Y","allow_dist
+":"false","allow_order":"false","readonly":"false","allow_qty":"false","allow_mark":"false"}}
+
+
+getfindForm
+
+2018-08-03 10:38:18,751 DEBUG 192.168.130.152 [21BJA1] 9BD108DD938FF22F43E840143D3B5A95 [FairConfig] getFindForm( zh_cn)={"attributes":[{"desc":"序号","name":"FLOWNO","type":"text"},{"desc":"款色号","name":"NAME","type":"text"},{"values":[{"desc":"中童服装","value":"中童服装"},{"desc":"幼童服装","va
+lue":"幼童服装"},{"desc":"幼童配件","value":"幼童配件"},{"desc":"幼童文创","value":"幼童文创"},{"desc":"中童鞋","value":"中童鞋"},{"desc":"幼童鞋","value":"幼童鞋"},{"desc":"中童文创","value":"中童文创"},{"desc":"中童内着","value":"中童内着"},{"desc":"婴童服装","value":"婴童服装"},{"desc":"婴童配件"
+,"value":"婴童配件"},{"desc":"中童配件","value":"中童配件"},{"desc":"婴童鞋","value":"婴童鞋"},{"desc":"婴童内着","value":"婴童内着"},{"desc":"幼童内着","value":"幼童内着"}],"desc":"产品线","name":"M_DIM8_ID","type":"list"},{"values":[{"desc":"中童","value":"中童"},{"desc":"婴童","value":"婴童"},{"d
+esc":"幼童","value":"幼童"}],"desc":"岁段","name":"M_DIM10_ID","type":"list"},{"values":[{"desc":"长裤","value":"长裤"},{"desc":"婴童内着上衣","value":"婴童内着上衣"},{"desc":"打底裤","value":"打底裤"},{"desc":"帽子","value":"帽子"},{"desc":"饰品","value":"饰品"},{"desc":"长袖针织T恤","value":"长袖
+针织T恤"},{"desc":"玩具","value":"玩具"},{"desc":"文具","value":"文具"},{"desc":"休闲鞋","value":"休闲鞋"},{"desc":"运动鞋","value":"运动鞋"},{"desc":"长袖衬衫","value":"长袖衬衫"},{"desc":"内衣","value":"内衣"},{"desc":"袜子","value":"袜子"},{"desc":"连衣裙","value":"连衣裙"},{"desc":"毛衫","value"
+:"毛衫"},{"desc":"长袖套装","value":"长袖套装"},{"desc":"婴童配件","value":"婴童配件"},{"desc":"长袖卫衣T恤","value":"长袖卫衣T恤"},{"desc":"短裙","value":"短裙"},{"desc":"内裤","value":"内裤"},{"desc":"家居","value":"家居"},{"desc":"马甲","value":"马甲"},{"desc":"呢衣","value":"呢衣"},{"desc":"背心
+","value":"背心"},{"desc":"棉服","value":"棉服"},{"desc":"包","value":"包"},{"desc":"短袖T恤","value":"短袖T恤"},{"desc":"婴童宝宝服礼盒","value":"婴童宝宝服礼盒"},{"desc":"水杯","value":"水杯"},{"desc":"婴童外出连体衣","value":"婴童外出连体衣"},{"desc":"婴童外出三角衣","value":"婴童外出三角衣"},{"d
+esc":"风衣","value":"风衣"},{"desc":"婴童内着套装","value":"婴童内着套装"},{"desc":"婴童内着连体衣","value":"婴童内着连体衣"},{"desc":"羽绒服","value":"羽绒服"},{"desc":"婴童内着下装","value":"婴童内着下装"},{"desc":"婴童寝具","value":"婴童寝具"},{"desc":"西服","value":"西服"},{"desc":"短袖衬衫","va
+lue":"短袖衬衫"},{"desc":"婴童内着三角衣","value":"婴童内着三角衣"},{"desc":"便服","value":"便服"}],"desc":"品类","name":"M_DIM3_ID","type":"list"},{"values":[{"desc":"男","value":"男"},{"desc":"中性","value":"中性"},{"desc":"女","value":"女"}],"desc":"性别","name":"M_DIM14_ID","type":"list"},{"valu
+es":[{"desc":"街头部落","value":"街头部落"},{"desc":"晚安宝贝","value":"晚安宝贝"},{"desc":"无主题","value":"无主题"},{"desc":"自然文艺","value":"自然文艺"},{"desc":"时尚运动","value":"时尚运动"},{"desc":"基础系列","value":"基础系列"},{"desc":"虚拟自然","value":"虚拟自然"},{"desc":"欢乐新年","value"
+:"欢乐新年"},{"desc":"诗意自然","value":"诗意自然"},{"desc":"多彩的一天","value":"多彩的一天"},{"desc":"阳光漫步","value":"阳光漫步"},{"desc":"我的第一个衣橱","value":"我的第一个衣橱"},{"desc":"梦之地带","value":"梦之地带"},{"desc":"华南专供","value":"华南专供"},{"desc":"混搭艺术","value":"混搭艺术"
+},{"desc":"新年派对","value":"新年派对"},{"desc":"学院工装","value":"学院工装"},{"desc":"我的第一个生日","value":"我的第一个生日"},{"desc":"浪漫花园","value":"浪漫花园"},{"desc":"我的第一个新年","value":"我的第一个新年"},{"desc":"小猪贺岁","value":"小猪贺岁"},{"desc":"TEE系列","value":"TEE系列"},{"d
+esc":"基础打底","value":"基础打底"},{"desc":"经典焕新","value":"经典焕新"}],"desc":"主题","name":"M_DIM5_ID","type":"list"},{"values":[{"desc":"春季","value":"春季"}],"desc":"品季","name":"M_DIM18_ID","type":"list"},{"values":[{"desc":"卫衣长裤","value":"卫衣长裤"},{"desc":"针织便服","value":"针织便
+服"},{"desc":"打底长裤","value":"打底长裤"},{"desc":"梭织帽","value":"梭织帽"},{"desc":"发夹","value":"发夹"},{"desc":"梭织便服","value":"梭织便服"},{"desc":"圆V领长袖T恤","value":"圆V领长袖T恤"},{"desc":"梭织长裤","value":"梭织长裤"},{"desc":"毛绒玩具","value":"毛绒玩具"},{"desc":"其他文具","value"
+:"其他文具"},{"desc":"牛仔长裤","value":"牛仔长裤"},{"desc":"帆布鞋","value":"帆布鞋"},{"desc":"轻便跑鞋","value":"轻便跑鞋"},{"desc":"慢跑鞋","value":"慢跑鞋"},{"desc":"梭织长袖衬衫","value":"梭织长袖衬衫"},{"desc":"内衣上装","value":"内衣上装"},{"desc":"短袜","value":"短袜"},{"desc":"梭织连衣裙","
+value":"梭织连衣裙"},{"desc":"圆领毛衫","value":"圆领毛衫"},{"desc":"打底裙裤","value":"打底裙裤"},{"desc":"针织长袖套装","value":"针织长袖套装"},{"desc":"发箍","value":"发箍"},{"desc":"圆领卫衣","value":"圆领卫衣"},{"desc":"梭织短裙","value":"梭织短裙"},{"desc":"板鞋","value":"板鞋"},{"desc":"公主
+鞋","value":"公主鞋"},{"desc":"拖鞋","value":"拖鞋"},{"desc":"平角裤","value":"平角裤"},{"desc":"家居套装","value":"家居套装"},{"desc":"针织马甲","value":"针织马甲"},{"desc":"针织长袖衬衫","value":"针织长袖衬衫"},{"desc":"针织长裤","value":"针织长裤"},{"desc":"中呢","value":"中呢"},{"desc":"牛仔便服
+","value":"牛仔便服"},{"desc":"其他休闲鞋","value":"其他休闲鞋"},{"desc":"毛织背心","value":"毛织背心"},{"desc":"拼接领毛衫","value":"拼接领毛衫"},{"desc":"毛开衫","value":"毛开衫"},{"desc":"梭织棉服","value":"梭织棉服"},{"desc":"针织连衣裙","value":"针织连衣裙"},{"desc":"围兜","value":"围兜"},{"des
+c":"休闲包","value":"休闲包"},{"desc":"发绳","value":"发绳"},{"desc":"发饰","value":"发饰"},{"desc":"翻领短袖T恤","value":"翻领短袖T恤"},{"desc":"皮鞋","value":"皮鞋"},{"desc":"内衣套装","value":"内衣套装"},{"desc":"毛织连衣裙","value":"毛织连衣裙"},{"desc":"其他长袖套装","value":"其他长袖套装"},{"d
+esc":"婴童宝宝服其他礼盒","value":"婴童宝宝服其他礼盒"},{"desc":"冷水杯","value":"冷水杯"},{"desc":"针织连体衣","value":"针织连体衣"},{"desc":"棉马甲","value":"棉马甲"},{"desc":"翻领长袖T恤","value":"翻领长袖T恤"},{"desc":"婴童外出三角衣","value":"婴童外出三角衣"},{"desc":"书包","value":"书包"},{"de
+sc":"对夹","value":"对夹"},{"desc":"其他饰品","value":"其他饰品"},{"desc":"笔","value":"笔"},{"desc":"书刊","value":"书刊"},{"desc":"篮球鞋","value":"篮球鞋"},{"desc":"梭织长风衣","value":"梭织长风衣"},{"desc":"婴童内着圆领肩开套装","value":"婴童内着圆领肩开套装"},{"desc":"牛仔马甲","value":"牛仔马
+甲"},{"desc":"梭织连体衣","value":"梭织连体衣"},{"desc":"带帽卫衣","value":"带帽卫衣"},{"desc":"帽子","value":"帽子"},{"desc":"婴童内着直开连体衣","value":"婴童内着直开连体衣"},{"desc":"足球训练鞋","value":"足球训练鞋"},{"desc":"三角裤","value":"三角裤"},{"desc":"保温杯","value":"保温杯"},{"desc":"
+首饰","value":"首饰"},{"desc":"短羽绒服","value":"短羽绒服"},{"desc":"婴童内着满裆裤","value":"婴童内着满裆裤"},{"desc":"针织帽","value":"针织帽"},{"desc":"婴童内着其他连体衣","value":"婴童内着其他连体衣"},{"desc":"毛织便服","value":"毛织便服"},{"desc":"睡袋","value":"睡袋"},{"desc":"拉杆包","value"
+:"拉杆包"},{"desc":"梭织西服","value":"梭织西服"},{"desc":"中羽绒服","value":"中羽绒服"},{"desc":"梭织马甲","value":"梭织马甲"},{"desc":"牛仔连衣裙","value":"牛仔连衣裙"},{"desc":"学生尺","value":"学生尺"},{"desc":"短呢","value":"短呢"},{"desc":"中袜","value":"中袜"},{"desc":"笔袋","value":"笔袋"},{
+"desc":"梭织短袖衬衫","value":"梭织短袖衬衫"},{"desc":"家居裙装","value":"家居裙装"},{"desc":"中领长袖T恤","value":"中领长袖T恤"},{"desc":"连裤袜","value":"连裤袜"},{"desc":"婴童内着三角衣","value":"婴童内着三角衣"},{"desc":"带帽长袖T恤","value":"带帽长袖T恤"},{"desc":"婴童内着圆领前开套装","value":
+"婴童内着圆领前开套装"},{"desc":"小平角裤小平角裤","value":"小平角裤小平角裤"},{"desc":"胸衣","value":"胸衣"},{"desc":"圆V领短袖T恤","value":"圆V领短袖T恤"},{"desc":"饰品套盒","value":"饰品套盒"},{"desc":"婴童内着侧开连体衣","value":"婴童内着侧开连体衣"},{"desc":"笔记本","value":"笔记本"},{"desc":"
+其他帽子","value":"其他帽子"},{"desc":"包巾","value":"包巾"},{"desc":"梭织长袖套装","value":"梭织长袖套装"},{"desc":"其他内裤","value":"其他内裤"},{"desc":"羽绒马甲","value":"羽绒马甲"},{"desc":"其他袜子","value":"其他袜子"},{"desc":"毛织马甲","value":"毛织马甲"},{"desc":"婴童内着前开上衣","value":"
+婴童内着前开上衣"},{"desc":"牛仔短裙","value":"牛仔短裙"},{"desc":"橡皮","value":"橡皮"},{"desc":"靴子","value":"靴子"},{"desc":"口水巾","value":"口水巾"},{"desc":"挂件","value":"挂件"}],"desc":"小类","name":"M_DIM4_ID","type":"list"},{"desc":"批次","name":"BATCHNO","type":"text"},{"values":[{"desc"
+:"春季","value":"春季"}],"desc":"季节","name":"M_DIM6_ID","type":"list"},{"values":[{"desc":"无","value":"无"}],"desc":"设计风格","name":"M_DIM11_ID","type":"list"},{"values":[{"desc":"是","value":"Y"},{"desc":"否","value":"N"}],"desc":"必定款","name":"TAB1","type":"list"},{"values":[{"desc":"是","v
+alue":"Y"},{"desc":"否","value":"N"}],"desc":"VP款","name":"TAB2","type":"list"},{"values":[{"desc":"是","value":"Y"},{"desc":"否","value":"N"}],"desc":"推广款","name":"TAB3","type":"list"},{"values":[{"desc":"是","value":"Y"},{"desc":"否","value":"N"}],"desc":"6倍订量","name":"TAB5","type":"list"},
+{"values":[{"desc":"是","value":"Y"},{"desc":"否","value":"N"}],"desc":"可用","name":"ISACTIVE","type":"list"},{"values":[{"desc":"A","value":5},{"desc":"B","value":4},{"desc":"C","value":3},{"desc":"D","value":2},{"desc":"E","value":1},{"desc":"-","value":0}],"desc":"评分","name":"fav.mark","type":
+"list"},{"values":[{"desc":"绿","value":"1"},{"desc":"蓝","value":"2"},{"desc":"红","value":"3"}],"desc":"疑问标注","name":"fav.qmark","type":"list"},{"desc":"订量","name":"foitem.qty","type":"number"},{"values":[{"desc":"是","value":"Y"},{"desc":"否","value":"N"}],"desc":"@place-the-order@","name":
+"foitem.isordered","type":"list"}]}
+
+
+reportForms
