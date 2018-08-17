@@ -1,0 +1,219 @@
+
+orderfair_rptviews
+
+Ana_area	    场次   Session																	
+				区域   Area
+Ana_area_ts 	公司目标 (万)   Company Goal(Ten Thousand)
+				实际金额   Actual Amount
+				提报金额   Reporting Amount
+				订货金额   Order Amount
+				公司目标达成 Company Goal Reached
+				提报目标达成  Reporting Goal Reached
+阿米巴组			订量  	Order Quantity
+				提报目标超额   Reporting Target Excess
+				同期配额(万)  Simultaneous Quota(Ten Thousand)
+				同比额增幅  Year-On-Year Amount Increase
+				同比额差异  Year-On-Year Amount Difference
+				同期配量     Simultaneous Dosing
+				同比量增幅   Year-On-Year Quantity Increase
+				同比动销率   Year-On-Year Sales Rate
+
+
+area1           代理商订货达成报表   Agent Order Fulfillment Report
+			 	系统编号   System Number
+area1-ts	 	系统名称   System Name
+			 	金额差异   Amount Difference
+			 	达成    Reach
+			 	同比配额增幅  	Year-On-Year Quota Increase
+			 	同比差异量    Year-On-Year Difference
+			 	同期销量   Simultaneous Sales
+			 	同期动销率   Simultaneous Sales Rate
+
+re_amt_audit    提报额审核表    Reporting Amount Review Form
+				代理商编号      Agent Number
+				季节           Season
+				品季			   Product Season
+				产品线          Product Line
+				预计订货吊牌金额     Estimated Order Tag Amount
+				预计吊牌金额占比		Estimated Ratio Of Tag Amount Proportion
+				实际订货吊牌金额     Actual Order Tag Amount
+				实际吊牌金额占比     Actual Tag Amount Proportion
+				合计					total
+				男					Male
+				女					Female
+				中性					Neutral
+				实际订货吊牌金额占比  Actual Ordering Tag Amount Proportion
+				实际订量				Actual Order Quantity
+				平均吊牌价			Average Tag Price
+				吊牌金额差异额		Tag Amount Difference
+
+
+ v_fo_must		必定款达标分析   Affirmative Paragraph Analysis
+ 				图片            Picture
+ 				款色号			Color Number
+ 				流水号			Serial Number
+ 				必定指标			Certain Indicator	
+ 				已定数量			A Fixed Quantity
+ 				差异数量			Difference Quantity
+  
+
+ line_rate  	产品线占比分析表				Product line ratio analysis table						
+ 				岁段							Years old
+ 	orz			提报吊牌额   				Reporting the amount of the tag
+ 				提报吊牌额占比
+ 阿米巴组		订货吊牌额 					Reporting the amount of the tag
+ 				订货吊牌额占比
+ 	未改动		订货吊牌额达成
+ 				公司规划占比
+
+
+ line_rate3  orz产品线占比分析表    			Product Line Ratio Analysis Table	
+ 		ts		产品线 						Product Line
+ 	orz			提报吊牌额
+ 				提报吊牌额占比
+   阿米巴组		订货吊牌额
+ 				订货吊牌额占比
+ 	未改动		订货吊牌额达成
+ 				公司规划占比
+
+
+area3			区域产品线订货情况分析		Analysis Of Regional Product Line Ordering Situation
+				品季							Product Season
+	ts			产品线 						Product Line
+				规划占比						Planning Ratio
+				实际订货额(市值)				Actual Order Amount (Market Value)
+				金额(市值) 					Amount (Market Value)
+				占比							Proportion
+				差异 						Difference
+				第一场同期					First Period
+				第二场同期					Second Period
+				配额(市值)					Quota (Market Value)
+				配量							Dosing
+				量占比						Proportion Of Quantity
+
+area31	ts		额占比						Proportion Of Amount
+
+
+area4            客户产品线订货情况分析       Customer Product Line Order Status Analysis
+				 岁段 						Years Old
+		TS		 品季 						Product Season
+				 产品线 						Product Line
+				 规划占比					Planning Ratio
+area41			 实际订货额(市值)				Actual Order Amount (Market Value)
+		TS		 金额(市值) 					Amount (Market Value)
+				 占比						Proportion
+				 差异  						Difference
+				 男							Male
+				 女							Female
+				 中性						Neutral
+				 实际订量					Actual Order Quantity
+				 量占比						Proportion Of Quantity
+				 同比额增幅  				Year-On-Year Amount Increase
+				 同比量增幅   				Year-On-Year Quantity Increase
+				 第一场同期					First Period
+				 第二场同期					Second Period
+				 配额(市值)					Quota (Market Value)
+				 配量					    Dosing
+
+
+
+history   	    性别品类历史合计分析 			Gender category history total analysis
+				性别 						gender
+				品类 						Category
+				合计订货 					Total order
+				总SKU数   					Total number of SKUs
+     orz        合计订SKU数  				Total order SKUs
+                合计订SKU数占比				Total SKU order ratio
+                单SKU均量 					Single SKU average
+                合计订量 					Total order
+  未改动        合计订量占比 					Total Order ratio
+                合计订货市值(万)   			Total order market value (Ten thousand)
+                合计订货市值占比
+                现订货 						Order now
+                已定SKU数 
+                订量 Order Quantity
+                订货市值(万) 
+                轻羽绒订货 
+
+
+
+ cpxcmdzbfx     产品线尺码段占比分析          Product Line Size Segment Ratio Analysis
+ 		ts		性别  						Gender 
+ 				类别 						Category
+ 				小类  						Small Class
+ 
+
+
+txcmdzbfx    TS   童鞋尺码段占比分析  			Ratio Analysis Of Children's Shoes Size Segment
+
+
+category       暂未改动
+category_ts    暂未改动
+
+skcrate		orz	品类款数占比分析  				Ratio Analysis Of Category & 
+				总类 
+	ts			设计款数  
+				订购款数  
+				款数占比  
+				订货金额   						Order Amount
+	未改动		数量 							Quantity
+				款 								Section			
+                金额 							Amount
+                元								Yuan			
+                设计 							Design
+                订购 							Order
+                占比								Proportion
+             
+
+
+wave  ts                暂未改动     数据已备份(_zh_bak)   
+
+favmark  ts             暂未改动		数据已备份(_zh_bak)
+
+pdtdetail  ts           图片
+	                    款号
+	                    色号
+	                    批次
+	                    主题
+	未改动               订货客户数
+	                    必定款
+	                    TOP款
+	                    单价
+	                    订量
+	                    定量占比
+	                    定额
+	                    定额占比
+	                    评级
+
+comments                买手意见反馈     Buyer Feedback
+						订货件数  	    Order Number
+						单价 		    Price
+						意见反馈 		Feedback
+						主管审批 		Supervisor Approval
+						日期				Date
+
+
+order                   暂未找到
+
+
+
+line_category           产品线品类排名 			Product Line Category Ranking
+			_ts			品季						Product Season
+						产品线 					Product Line
+						品类 					Category
+						序号						Serial Number
+						款号 					Section Number
+						色号						Color Number
+						订量 					Order Quantity
+						订量占比 				Order Ratio
+						品类排名 				Category Ranking
+						产品线排名 				Product Line Ranking
+
+
+zbdc					指标达成报表				Indicator Achievement Report
+						季节						Season
+						品季						Product Season
+						产品线 					Product Line
+						提报金额 				Reporting Amount
+						订货金额 				Order Amount
+						完成率 					Completion Rate

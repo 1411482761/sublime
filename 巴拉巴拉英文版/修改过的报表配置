@@ -1,0 +1,67 @@
+
+orderfair_rptviews
+
+Ana_area	*    场次   Session																	阿米巴组
+				区域   Area
+Ana_area_ts 	公司目标 (万)   Company Goal(Ten Thousand)
+				实际金额   Actual Amount
+				提报金额   Reporting Amount
+				订货金额   Order Amount
+				公司目标达成 Company Goal Reached
+				提报目标达成  Reporting Goal Reached
+				订量  	Order Quantity
+				提报目标超额   Reporting Target Excess
+				同期配额(万)  Simultaneous Quota(Ten Thousand)
+				同比额增幅  Year-On-Year Amount Increase
+				同比额差异  Year-On-Year Amount Difference
+				同期配量     Simultaneous Dosing
+				同比量增幅   Year-On-Year Quantity Increase
+				同比动销率   Year-On-Year Sales Rate
+
+
+area1           代理商订货达成报表   Agent Order Fulfillment Report
+			 	系统编号   System Number
+area1-ts	 	系统名称   System Name
+			 	金额差异   Amount Difference
+			 	达成    Reach
+			 	同比配额增幅  	Year-On-Year Quota Increase
+			 	同比差异量    Year-On-Year Difference
+			 	同期销量   Simultaneous Sales
+			 	同期动销率   Simultaneous Sales Rate
+
+re_amt_audit    提报额审核表    Reporting Amount Review Form
+				代理商编号      Agent Number
+				季节           Season
+				品季			   Product Season
+				产品线          Product Line
+				预计订货吊牌金额     Estimated Order Tag Amount
+				预计吊牌金额占比		Estimated Ratio Of Tag Amount Proportion
+				实际订货吊牌金额     Actual Order Tag Amount
+				实际吊牌金额占比     Actual Tag Amount Proportion
+				合计					total
+				男					Male
+				女					Female
+				中性					Neutral
+				实际订货吊牌金额占比  Actual Ordering Tag Amount Proportion
+				实际订量				Actual Order Quantity
+				平均吊牌价			Average Tag Price
+				吊牌金额差异额		Tag Amount Difference
+
+
+ v_fo_must		必定款达标分析   Affirmative Paragraph Analysis
+ 				图片            Picture
+ 				款色号			Color Number
+ 				流水号			Serial Number
+ 				必定指标			Certain Indicator	
+ 				已定数量			A Fixed Quantity
+ 				差异数量			Difference Quantity
+  
+
+ line_rate  *	产品线占比分析表				Product line ratio analysis table						阿米巴组
+ 				岁段							Years old
+ 				提报吊牌额   				Reporting the amount of the tag
+ 				提报吊牌额占比
+ 				订货吊牌额 					Reporting the amount of the tag
+ 				订货吊牌额占比
+ 				订货吊牌额达成
+ 				公司规划占比

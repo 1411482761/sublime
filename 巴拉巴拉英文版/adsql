@@ -34,3 +34,5 @@ cluster_servers
 
  orderfair_qty_amt_order
  orderfair_pdt_index
+
+{"message":"[503]service not registed, key is : _api_com.xtep.stock.service.ApiStockService.addAllocationByAiPrd_null_null_1.0.0","requestId":"ID-f289b8589ec4-43276-1513148768282-1-869265","code":500}
